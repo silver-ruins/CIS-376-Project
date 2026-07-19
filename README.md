@@ -1,5 +1,5 @@
 ```txt
-my-front-end-project/
+dev-charlie project/
 ├── index.html
 ├── pages/
 │   ├── about.html
