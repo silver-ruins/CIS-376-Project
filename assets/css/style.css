@@ -1,0 +1,105 @@
+:root {
+    --bg: #f6efe8;
+    --surface: #fffdf8;
+    --accent: #2d6a4f;
+    --accent-strong: #1b4332;
+    --accent-soft: #7ebc59;
+    --text: #23312b;
+    --muted: #6b736f;
+    --border: #e4d9c8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, var(--bg), #fff8ed);
+    color: var(--text);
+}
+
+h1, h2, h3 {
+    color: var(--accent-strong);
+}
+
+.site-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 6px 24px rgba(9, 32, 20, 0.06);
+}
+
+.nav-links a {
+    margin-right: 12px;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: var(--accent-strong);
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.25rem;
+    box-shadow: 0 10px 30px rgba(35, 49, 43, 0.06);
+}
+
+.hero {
+    background: linear-gradient(125deg, rgba(126, 188, 89, 0.2), rgba(45, 106, 79, 0.12));
+}
+
+.auth-card {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 14px;
+    padding: 1rem;
+}
+
+.editable-area {
+    min-height: 120px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.75rem;
+    background: #fff;
+}
+
+.project-card {
+    height: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 30px rgba(35, 49, 43, 0.1);
+}
+
+.project-card.is-favorite {
+    border-color: var(--accent-soft);
+    box-shadow: 0 0 0 2px rgba(126, 188, 89, 0.25);
+}
+
+.tag-badge {
+    display: inline-block;
+    margin-right: 0.35rem;
+    margin-bottom: 0.35rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: #eef7e8;
+    color: var(--accent);
+    font-size: 0.8rem;
+}
+
+.favorite-btn.active {
+    background: var(--accent-soft);
+    color: white;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--muted);
+}
