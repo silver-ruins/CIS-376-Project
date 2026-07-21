@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Dandelion Parade</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header py-3">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+            <div>
+                <h1 class="mb-1">Log in</h1>
+                <p class="mb-0 text-muted">Secure your session with a fallback login flow.</p>
+            </div>
+            <nav class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="container py-5">
+    <section class="card mx-auto" style="max-width: 520px;">
+        <h2 class="mb-3">Welcome back</h2>
+        <label class="form-label" for="userBox">Username</label>
+        <input id="userBox" class="form-control mb-3">
+
+        <label class="form-label" for="passBox">Password</label>
+        <input id="passBox" class="form-control mb-3" type="password">
+
+        <button id="loginBtn" class="btn btn-success">Log In</button>
+
+        <p id="loginMessage" class="mt-3 text-muted">Demo password: password123</p>
+    </section>
+</main>
+
+<script src="../assets/js/auth.js"></script>
+</body>
+</html>
