@@ -7,7 +7,7 @@
     "tags": ["tea", "medicinal", "spring"],
     "favorite": true,
     "links": [
-      { "label": "Recipe guide", "url": "" }
+      { "label": "example", "url": "" }
     ]
   },
   {
@@ -18,7 +18,7 @@
     "tags": ["healing", "outdoor"],
     "favorite": false,
     "links": [
-      { "label": "Herbal notes", "url": "" }
+      { "label": "example", "url": "" }
     ]
   },
   {
@@ -29,7 +29,7 @@
     "tags": ["kitchen", "refreshing"],
     "favorite": false,
     "links": [
-      { "label": "How to prepare", "url": "" }
+      { "label": "example", "url": "" }
     ]
   }
 ]
