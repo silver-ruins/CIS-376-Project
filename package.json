@@ -1,0 +1,27 @@
+{
+  "name": "cis-376-project",
+  "version": "1.0.0",
+  "description": "Dandelion Parade is a polished front-end web app for tracking plant discoveries, recipes, and related notes. The project now includes a richer UI, a JSON-backed content experience, login state handling, search/filter/sort controls, favorites, and an admin dashboard.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silver-ruins/CIS-376-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/silver-ruins/CIS-376-Project/issues"
+  },
+  "homepage": "https://github.com/silver-ruins/CIS-376-Project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
