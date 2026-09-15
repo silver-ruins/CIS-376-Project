@@ -7,8 +7,8 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
   resource                     link
   ---------------------------- ----------------------
   PROD codebase                [`main`](https://silver-ruins.github.io/CIS-376-Project/)
-  PROD server                  [GCP]((https://elizabeth.barrycumbie.com/))
-  DEV codebase                 [`dev`]((https://github.com/silver-ruins/CIS-376-Project/tree/dev))
+  PROD server                  [GCP](https://elizabeth.barrycumbie.com/)
+  DEV codebase                 [`dev`](https://github.com/silver-ruins/CIS-376-Project/tree/dev)
   DEV server                   [Render](https://dandelionparade.onrender.com)
   docs                         [`docs/`]((https://github.com/silver-ruins/CIS-376-Project/edit/main/docs/README.md))
   published docs               [GitHub Pages](URL)
@@ -71,7 +71,7 @@ dev-charlie project/
 ```
 
 ## Agile planning notes
-- Wireframe: see `the public/docs/` folder for a simple page map.
+- Wireframe: see the `public/docs/` folder for a simple page map.
 - Future ideas: add real authentication API integration, richer admin reporting, and a persistent backend.
 
 ## Resources
