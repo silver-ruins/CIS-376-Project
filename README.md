@@ -4,7 +4,7 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
 
 ## Deployments
 - dev server: https://silver-ruins.github.io/CIS-376-Project/
-- GCP server: http://136.64.42.219
+- server: [http://136.64.42.219](https://elizabeth.barrycumbie.com/)
 
 ## Project goals
 - Build a maintainable, modern single-page-style site for plant knowledge.
@@ -14,23 +14,31 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
 ## Structure
 ```txt
 dev-charlie project/
-├── index.html
-├── pages/
-│   ├── about.html
-│   ├── projects.html
-│   ├── admin.html
-│   ├── auth.html
-│   └── contact.html
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── auth.js
-│   │   └── main.js
-│   │   └── admin.js
-│   └── img/
-├── data/
-│   └── projects.json
+├── .github/
+│   ├── deploy-main-to-gcp.yml
+├── public/
+│   ├── index.html
+│   ├── AGENTS.md
+│   ├── pages/
+│   │   ├── about.html
+│   │   ├── projects.html
+│   │   ├── admin.html
+│   |   ├── auth.html
+│   |   └── contact.html
+│   ├── assets/
+│   |   ├── css/
+│   │   |   └── style.css
+│   │   ├── js/
+│   │   │   └── auth.js
+│   │   │   └── main.js
+│   │   │   └── admin.js
+│   │   └── img/
+│   ├── data/
+│       └── projects.json
+├── server/
+│   ├── app.js
+│   ├── package-lock.json
+│   ├── package.json
 ├── README.md
 ```
 
