@@ -1,4 +1,4 @@
-name: re-deploy-main-to-gcp.yml
+name: deploy-main-to-gcp.yml
 
 on:
   push:
