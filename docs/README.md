@@ -71,7 +71,7 @@ dev-charlie project/
 ```
 
 ## Agile planning notes
-- Wireframe: see the docs folder for a simple page map.
+- Wireframe: see `the public/docs/` folder for a simple page map.
 - Future ideas: add real authentication API integration, richer admin reporting, and a persistent backend.
 
 ## Resources
