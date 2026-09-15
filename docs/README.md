@@ -16,12 +16,28 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
   successful PROD deployment   [GitHub Action](https://github.com/silver-ruins/CIS-376-Project/actions/runs/35007172108)
   resolved GOLF issue          [issue \#](URL)
 
-- video production server: [http://34.130.188.168](https://elizabeth.barrycumbie.com/)
-
 ## Project goals
 - Build a maintainable, modern single-page-style site for plant knowledge.
 - Practice planning, UI refinement, authentication flows, and JSON-driven content.
 - Keep the app lightweight and easy to run locally in any browser.
+
+### architecture
+
+``` text
+LOCAL
+  │
+  ▼
+GitHub
+  │
+  ├── dev  ──► Render ─────────► DEV
+  │
+  └── main ──► GitHub Actions ─► GCP ──► PROD
+```
+
+### stack
+
+`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
 
 ## Structure
 ```txt
