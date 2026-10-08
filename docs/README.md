@@ -16,6 +16,26 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
   successful PROD deployment   [GitHub Action](https://github.com/silver-ruins/CIS-376-Project/actions/runs/35007172108)
   resolved GOLF issue          [issue \#](URL)
 
+##
+
+| requirement | evidence |
+|---|---|
+| MongoDB connection | [server code](https://github.com/silver-ruins/CIS-376-Project/commit/0edf048b8c23dd9d1550944a2a425dc2c7c86f0a) |
+| GET all | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e2e8bd90fac37464af4bc6bc62ca22604f1a378f) |
+| GET one | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e2e8bd90fac37464af4bc6bc62ca22604f1a378f) |
+| filtered GET | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| POST | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| PATCH | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| DELETE | [code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| frontend `fetch()` | [client code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| PROD app | [app](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| HOTEL milestone | [milestone](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
+| example issue | [issue](URL) |
+| development branch | [branch](https://github.com/silver-ruins/CIS-376-Project/tree/dev) |
+| feature → dev | [PR](URL) |
+| dev → main | [PR](https://github.com/silver-ruins/CIS-376-Project/pull/7) |
+| PROD deployment | [Action](https://elizabeth.barrycumbie.com/) |
+
 ## Project goals
 - Build a maintainable, modern single-page-style site for plant knowledge.
 - Practice planning, UI refinement, authentication flows, and JSON-driven content.
