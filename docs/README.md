@@ -30,9 +30,9 @@ Dandelion Parade is a polished front-end web app for tracking plant discoveries,
 | frontend `fetch()` | [client code](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
 | PROD app | [app](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
 | HOTEL milestone | [milestone](https://github.com/silver-ruins/CIS-376-Project/commit/e6dc4de1f146f93a70f15bf466117400680d1ea8) |
-| example issue | [issue](URL) |
+| example issue | [issue](https://github.com/silver-ruins/CIS-376-Project/issues/4) |
 | development branch | [branch](https://github.com/silver-ruins/CIS-376-Project/tree/dev) |
-| feature → dev | [PR](URL) |
+| feature → dev | [PR](https://github.com/silver-ruins/CIS-376-Project/pull/7) |
 | dev → main | [PR](https://github.com/silver-ruins/CIS-376-Project/pull/7) |
 | PROD deployment | [Action](https://elizabeth.barrycumbie.com/) |
 
